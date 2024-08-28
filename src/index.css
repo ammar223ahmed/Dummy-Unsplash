@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parent_class{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.heading{
+    color: white;
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.heading_end{
+    color: white;
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline 
+}
+
+.button_back{
+    background-color: whitesmoke;
+    color: black;
+    padding: 7px 12px;
+    margin-top: 2em;
+    font-weight: bold;
+    border-radius: 5px;   
+}
+
